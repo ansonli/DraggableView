@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E5D3A4C13E07E4C00F295F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5D3A4B13E07E4C00F295F5 /* UIKit.framework */; };
+		3E5D3A4E13E07E4C00F295F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5D3A4D13E07E4C00F295F5 /* Foundation.framework */; };
+		3E5D3A5013E07E4C00F295F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5D3A4F13E07E4C00F295F5 /* CoreGraphics.framework */; };
+		3E5D3A5613E07E4C00F295F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E5D3A5413E07E4C00F295F5 /* InfoPlist.strings */; };
+		3E5D3A5813E07E4C00F295F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D3A5713E07E4C00F295F5 /* main.m */; };
+		3E5D3A5C13E07E4C00F295F5 /* DraggableViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D3A5B13E07E4C00F295F5 /* DraggableViewAppDelegate.m */; };
+		3E5D3A5F13E07E4C00F295F5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E5D3A5D13E07E4C00F295F5 /* MainWindow.xib */; };
+		3E5D3A6213E07E4C00F295F5 /* DraggableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D3A6113E07E4C00F295F5 /* DraggableViewController.m */; };
+		3E5D3A6513E07E4C00F295F5 /* DraggableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E5D3A6313E07E4C00F295F5 /* DraggableViewController.xib */; };
+		3E5D3A6E13E07E5800F295F5 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E5D3A6C13E07E5800F295F5 /* MainWindow-iPad.xib */; };
+		3E5D3A7513E07F0B00F295F5 /* TPDraggableItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D3A7413E07F0B00F295F5 /* TPDraggableItemView.m */; };
+		3E5D3A7813E07F5300F295F5 /* TPDraggableScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D3A7713E07F5300F295F5 /* TPDraggableScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E5D3A4713E07E4C00F295F5 /* DraggableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraggableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5D3A4B13E07E4C00F295F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E5D3A4D13E07E4C00F295F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E5D3A4F13E07E4C00F295F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E5D3A5313E07E4C00F295F5 /* DraggableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DraggableView-Info.plist"; sourceTree = "<group>"; };
+		3E5D3A5513E07E4C00F295F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E5D3A5713E07E4C00F295F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E5D3A5913E07E4C00F295F5 /* DraggableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DraggableView-Prefix.pch"; sourceTree = "<group>"; };
+		3E5D3A5A13E07E4C00F295F5 /* DraggableViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DraggableViewAppDelegate.h; sourceTree = "<group>"; };
+		3E5D3A5B13E07E4C00F295F5 /* DraggableViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraggableViewAppDelegate.m; sourceTree = "<group>"; };
+		3E5D3A5E13E07E4C00F295F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3E5D3A6013E07E4C00F295F5 /* DraggableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DraggableViewController.h; sourceTree = "<group>"; };
+		3E5D3A6113E07E4C00F295F5 /* DraggableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraggableViewController.m; sourceTree = "<group>"; };
+		3E5D3A6413E07E4C00F295F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DraggableViewController.xib; sourceTree = "<group>"; };
+		3E5D3A6D13E07E5800F295F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		3E5D3A7313E07F0B00F295F5 /* TPDraggableItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPDraggableItemView.h; path = Views/TPDraggableItemView.h; sourceTree = "<group>"; };
+		3E5D3A7413E07F0B00F295F5 /* TPDraggableItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPDraggableItemView.m; path = Views/TPDraggableItemView.m; sourceTree = "<group>"; };
+		3E5D3A7613E07F5300F295F5 /* TPDraggableScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPDraggableScrollView.h; path = Views/TPDraggableScrollView.h; sourceTree = "<group>"; };
+		3E5D3A7713E07F5300F295F5 /* TPDraggableScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPDraggableScrollView.m; path = Views/TPDraggableScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E5D3A4413E07E4C00F295F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5D3A4C13E07E4C00F295F5 /* UIKit.framework in Frameworks */,
+				3E5D3A4E13E07E4C00F295F5 /* Foundation.framework in Frameworks */,
+				3E5D3A5013E07E4C00F295F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E5D3A3C13E07E4C00F295F5 = {
+			isa = PBXGroup;
+			children = (
+				3E5D3A5113E07E4C00F295F5 /* DraggableView */,
+				3E5D3A4A13E07E4C00F295F5 /* Frameworks */,
+				3E5D3A4813E07E4C00F295F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E5D3A4813E07E4C00F295F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D3A4713E07E4C00F295F5 /* DraggableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E5D3A4A13E07E4C00F295F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D3A4B13E07E4C00F295F5 /* UIKit.framework */,
+				3E5D3A4D13E07E4C00F295F5 /* Foundation.framework */,
+				3E5D3A4F13E07E4C00F295F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E5D3A5113E07E4C00F295F5 /* DraggableView */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D3A6F13E07E6200F295F5 /* Views */,
+				3E5D3A6B13E07E5600F295F5 /* iPad */,
+				3E5D3A5A13E07E4C00F295F5 /* DraggableViewAppDelegate.h */,
+				3E5D3A5B13E07E4C00F295F5 /* DraggableViewAppDelegate.m */,
+				3E5D3A6013E07E4C00F295F5 /* DraggableViewController.h */,
+				3E5D3A6113E07E4C00F295F5 /* DraggableViewController.m */,
+				3E5D3A5D13E07E4C00F295F5 /* MainWindow.xib */,
+				3E5D3A6313E07E4C00F295F5 /* DraggableViewController.xib */,
+				3E5D3A5213E07E4C00F295F5 /* Supporting Files */,
+			);
+			path = DraggableView;
+			sourceTree = "<group>";
+		};
+		3E5D3A5213E07E4C00F295F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D3A5313E07E4C00F295F5 /* DraggableView-Info.plist */,
+				3E5D3A5413E07E4C00F295F5 /* InfoPlist.strings */,
+				3E5D3A5713E07E4C00F295F5 /* main.m */,
+				3E5D3A5913E07E4C00F295F5 /* DraggableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E5D3A6B13E07E5600F295F5 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D3A6C13E07E5800F295F5 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		3E5D3A6F13E07E6200F295F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E5D3A7613E07F5300F295F5 /* TPDraggableScrollView.h */,
+				3E5D3A7713E07F5300F295F5 /* TPDraggableScrollView.m */,
+				3E5D3A7313E07F0B00F295F5 /* TPDraggableItemView.h */,
+				3E5D3A7413E07F0B00F295F5 /* TPDraggableItemView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E5D3A4613E07E4C00F295F5 /* DraggableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E5D3A6813E07E4C00F295F5 /* Build configuration list for PBXNativeTarget "DraggableView" */;
+			buildPhases = (
+				3E5D3A4313E07E4C00F295F5 /* Sources */,
+				3E5D3A4413E07E4C00F295F5 /* Frameworks */,
+				3E5D3A4513E07E4C00F295F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DraggableView;
+			productName = DraggableView;
+			productReference = 3E5D3A4713E07E4C00F295F5 /* DraggableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E5D3A3E13E07E4C00F295F5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3E5D3A4113E07E4C00F295F5 /* Build configuration list for PBXProject "DraggableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E5D3A3C13E07E4C00F295F5;
+			productRefGroup = 3E5D3A4813E07E4C00F295F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E5D3A4613E07E4C00F295F5 /* DraggableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E5D3A4513E07E4C00F295F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5D3A5613E07E4C00F295F5 /* InfoPlist.strings in Resources */,
+				3E5D3A5F13E07E4C00F295F5 /* MainWindow.xib in Resources */,
+				3E5D3A6513E07E4C00F295F5 /* DraggableViewController.xib in Resources */,
+				3E5D3A6E13E07E5800F295F5 /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E5D3A4313E07E4C00F295F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E5D3A5813E07E4C00F295F5 /* main.m in Sources */,
+				3E5D3A5C13E07E4C00F295F5 /* DraggableViewAppDelegate.m in Sources */,
+				3E5D3A6213E07E4C00F295F5 /* DraggableViewController.m in Sources */,
+				3E5D3A7513E07F0B00F295F5 /* TPDraggableItemView.m in Sources */,
+				3E5D3A7813E07F5300F295F5 /* TPDraggableScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E5D3A5413E07E4C00F295F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E5D3A5513E07E4C00F295F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E5D3A5D13E07E4C00F295F5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E5D3A5E13E07E4C00F295F5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3E5D3A6313E07E4C00F295F5 /* DraggableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E5D3A6413E07E4C00F295F5 /* en */,
+			);
+			name = DraggableViewController.xib;
+			sourceTree = "<group>";
+		};
+		3E5D3A6C13E07E5800F295F5 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E5D3A6D13E07E5800F295F5 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E5D3A6613E07E4C00F295F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E5D3A6713E07E4C00F295F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E5D3A6913E07E4C00F295F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Botang Li (TDN9V2GPC9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DraggableView/DraggableView-Prefix.pch";
+				INFOPLIST_FILE = "DraggableView/DraggableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = DraggableView;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C1FD16D5-363D-4344-9976-53A71AD72276";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E5D3A6A13E07E4C00F295F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DraggableView/DraggableView-Prefix.pch";
+				INFOPLIST_FILE = "DraggableView/DraggableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = DraggableView;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E5D3A4113E07E4C00F295F5 /* Build configuration list for PBXProject "DraggableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E5D3A6613E07E4C00F295F5 /* Debug */,
+				3E5D3A6713E07E4C00F295F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E5D3A6813E07E4C00F295F5 /* Build configuration list for PBXNativeTarget "DraggableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E5D3A6913E07E4C00F295F5 /* Debug */,
+				3E5D3A6A13E07E4C00F295F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E5D3A3E13E07E4C00F295F5 /* Project object */;
+}
